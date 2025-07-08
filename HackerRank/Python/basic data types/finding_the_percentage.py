@@ -1,6 +1,7 @@
 '''Problem Discription : I am provided with a list of students , with their marks in subjects, I need to calculate
                          average of marks of a specified student. eg. krishna = 23, 45, 56   gaytri = 13, 47, 89  
                          krishna o/p : 41.33
+                         link : https://www.hackerrank.com/challenges/finding-the-percentage
                          
 Approach : I will use sum function on respective list of marks of specified students and divide by length of list and print it'''
 

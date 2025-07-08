@@ -1,6 +1,7 @@
 '''Problem Description : I am provide names and scores of student and I am supposed to provide list of names of student who 
                          obtained second-lowest scores, each name at new line.
                          eg. ravi = 30, gita = 20, tina = 25, jay = 25    o/p : jay, tina
+                         link : https://www.hackerrank.com/challenges/nested-list
 
 Approach : I am thinking of creating a dictionary with key == name and value == score, and then I will create a list of unique scores
            , we will sort that list, obtain the second lowest score, and then we will get all the names having value == second-lowest-score
