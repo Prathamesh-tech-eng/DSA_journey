@@ -1,10 +1,10 @@
-#Problem Description : I am provided a list of scores and I am supposed to find the second best score from the list
-#eg. I/p : [100,20,39,45,200,210,34]   o/p : 200
-#link : https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
+'''Problem Description : I am provided a list of scores and I am supposed to find the second best score from the list
+                         eg. I/p : [100,20,39,45,200,210,34]   o/p : 200
+                         link : https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list
 
-#Approach 1: I am planning to delete the duplicates first by converting it into set, and then into list,
-#  and then applying sort function.
-
+Approach 1: I am planning to delete the duplicates first by converting it into set, and then into list,
+  and then applying sort function.
+'''
 
 n = int(input())
 arr = map(int, input().split())
