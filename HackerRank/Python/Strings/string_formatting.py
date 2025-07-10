@@ -20,3 +20,4 @@ n = int(input())
 print_formatted(n)
 
 #Time Complexity : O(nlogn)
+#Space Complexity : O(n)
