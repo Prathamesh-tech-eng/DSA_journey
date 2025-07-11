@@ -2,7 +2,7 @@
                          of each in range 1 to number. The printed o/p should be in a specific format, like each column is left padded
                          link : https://www.hackerrank.com/challenges/python-string-formatting
                          
-Approach : I will use the built in functions like bin() oct() and hex() for the values and will use ljust to obtain the specified
+Approach : I will use the built in functions like bin() oct() and hex() for the values and will use rjust to obtain the specified
            print format of left padding'''
 
 def print_formatted(number):
