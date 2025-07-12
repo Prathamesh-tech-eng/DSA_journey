@@ -15,5 +15,5 @@ for items in C:                      #O(n)
     print(items)
 
 
-#Time Complexity : O(n + m + klogk) = O(n + m)log(n + m)
+#Time Complexity : O(n + m + klogk) = O(n + m)log(n + m)             as k = n + m in worst case scenario
 #Space Complexity : O(n + m)
