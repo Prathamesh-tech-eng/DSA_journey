@@ -33,3 +33,29 @@ for i in range(B_size):                             #O(B_size × K)
 #Time complexity : O(A_size + K * B_size)
 #Space complexity : O(A_size)
 
+
+'''Default_dict : 
+from collections import defaultdict
+
+group = defaultdict(list)
+pairs = [("a", 1), ("a", 2), ("b", 3)]
+
+for key, value in pairs:
+    group[key].append(value)
+
+print(group)  # {'a': [1, 2], 'b': [3]}
+
+
+enumerate : 
+
+fruits = ['apple', 'banana', 'cherry']
+
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
+
+Output:
+
+0 apple
+1 banana
+2 cherry
+'''

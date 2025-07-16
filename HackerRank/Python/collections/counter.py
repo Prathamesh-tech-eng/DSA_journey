@@ -24,3 +24,15 @@ print(total)
 
 #Time complexity : O(m + n)  where m = A_size   n = no. of customers  and A = collections.Counter(A) → O(m)
 #Space Complexity : O(m)
+
+
+'''
+from collections import Counter
+
+s = "banana"
+count = Counter(s)
+print(count)
+
+Output:
+Counter({'a': 3, 'n': 2, 'b': 1})
+'''
