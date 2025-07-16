@@ -1,5 +1,5 @@
-'''Problem Description : I am a shop owner. And I have a list of shoe-sizes. and I am provided a customers desired shoe - size, and the
-                         price they are paying for that. Now I need to find the total money I earn from selling
+'''Problem Description : I am a shop owner. And I have a list of shoe-sizes. and I am also provided a customers desired shoe - size, and the
+                         price list. Now I need to find the total money I earn from selling
                          e.g : A = [6,6,8]  C1 = 6 45  C2 = 7 70   C3 = 6 35   O/P : 45 + 70 + 35 = 150
                          Link : https://www.hackerrank.com/challenges/collections-counter/problem
                          
