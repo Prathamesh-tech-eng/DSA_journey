@@ -1,7 +1,8 @@
 '''Problem Description : I am provided two arrays each with size n*p and m*p and I need to concatenate them along axis = 0
                          link : https://www.hackerrank.com/challenges/np-concatenate
                          
-Approach : I will use numpy.concatenate() to achieve concatenation.
+Approach : I will use np.arry to convert the input list into arrays , then i will use array.shape to give them dimensions , and
+           in the end I will apply np.concatenation to merge them at axis = 0.
 '''
 
 import numpy as np
