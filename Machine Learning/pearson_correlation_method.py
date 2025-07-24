@@ -42,8 +42,8 @@ data = {
 
 df = pd.DataFrame(data)
 
-X = df['PS'].values
-Y = df['HS'].values
+X = np.array(df['PS'].values)
+Y = np.array(df['HS'].values)
 
 X_mean = np.mean(X)
 Y_mean = np.mean(Y)
