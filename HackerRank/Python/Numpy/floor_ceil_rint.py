@@ -4,7 +4,7 @@
 Approach : I will use the numpy built in for finding floor, ceil and rint values, i.e : np.floor, np.ceil and np.rint()
 '''
 import numpy as np
-np.set_printoptions(legacy=1.15)
+np.set_printoptions(legacy='1.13')
 A = np.array(list(map(float, input().split())))
 
 print(f"{np.floor(A)}\n{np.ceil(A)}\n{np.rint(A)}")
