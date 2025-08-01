@@ -50,7 +50,7 @@ import sys
 # The function accepts INTEGER_ARRAY a as parameter.
 #
 
-def reverseArray(a):
+def ReverseArray(a):
     left, right = 0, len(a)
     while left < right :
         a[left], a[right] = a[right], a[left]
