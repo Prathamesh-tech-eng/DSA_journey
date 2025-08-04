@@ -6,21 +6,13 @@
                          link : https://www.hackerrank.com/challenges/the-minion-game
                          
 Approach : the first thing I will find all the possible combinations of the provided string, then I will filter them based on vowel or 
-           consonant as the starting character, then I will iterate through each word into the string to find it's occurences. This co
-           uld be done using itertools.combination and manual count of the word occurence.
+           consonant as the starting character, then I will iterate through each word into the string to find it's occurences.
            '''
 
 
 
 
 from itertools import combinations
-import re
-def count_substring(string, sub_string):
-    count = 0
-    for i in range(len(string) - len(sub_string) + 1):  
-        if string[i: i + len(sub_string)] == sub_string:    
-            count += 1      
-    return count
 
 def minion_game(string):
     vowels = 'AEIOU'
