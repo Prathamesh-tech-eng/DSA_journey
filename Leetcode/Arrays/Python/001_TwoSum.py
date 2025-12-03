@@ -41,7 +41,7 @@ def twoSum(nums, target) :
             return [arr[i][1], arr[j][1]]
 
 Time Complexity : O(nlogn)
-Space Complexity : O(n2)
+Space Complexity : O(1)
 '''
 
 

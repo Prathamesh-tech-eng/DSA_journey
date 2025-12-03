@@ -65,7 +65,7 @@ Approach : I am planning to use hash map to store the compliment of the numbers 
     */
 
     /*
-    //Brute force approach B : Sorting then applying Binary Search
+    //approach B : Sorting then applying Binary Search
         class TwoSum001 {
         public int[] twoSum(int[] nums, int target){
 
@@ -109,8 +109,8 @@ Approach : I am planning to use hash map to store the compliment of the numbers 
         }
     }
 
-    Time Complexity : O(NlognN)
-    Space Complexity : O(N2)
+    Time Complexity : O(NlogN)
+    Space Complexity : O(NlogN)
 
     */
 
