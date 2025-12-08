@@ -11,15 +11,14 @@ Link : https://leetcode.com/problems/verifying-an-alien-dictionary/description/
 '''
 def _009_verifyingAlienDictionary( words, order):
 
-
-''' 
+    ''' 
     #Step 1 : create a dictionary
     alienOrder = {}
 
     #Step 2 : add the characters and their position as values
     for i in range(len(order)):
-        alienOrder[order[i]] = i
-'''
+        alienOrder[order[i]] = i 
+    '''
 
     # Step 1 & 2: Create dictionary (Using Dictionary Comprehension is faster!)
     alienOrder = {char: i for i, char in enumerate(order)}
@@ -45,3 +44,12 @@ def _009_verifyingAlienDictionary( words, order):
 
 #Time Complexity : O(n)
 #Space Complexity : O(1)
+
+
+'''
+Note : We are not using list here, unlike in java, where using arrays instead of hashmap in this problem gave us more optimized solution. But
+       in case of python , in this problem it is not same. the reason that array was faster in java is because java treats char as number (integers)
+       so 'c' - 'a' becomes a simple substraction (99 - 97 = 2). It happens instantly in the CPU level. But Python doesn't have such "Primitive
+       char" type. A character is just a string of length 1 and to do math on these characters in python, we have to use ord(), i.e ord('c') - ord('a')
+       and calling this function for every character comparison adds overhead, that cancels out the speed benefit of using list of size 26 .
+'''
